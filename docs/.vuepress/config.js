@@ -2,23 +2,19 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 
-console.log(
-	defaultTheme({
-		logo: 'https://vuejs.press/images/hero.png',
 
-		navbar: ['/', '/get-started'],
-	})
-)
 export default defineUserConfig({
 	lang: 'en-US',
 
-	title: 'VuePress',
-	description: 'My first VuePress Site',
+	title: 'GoHTML',
+	description: 'This is from config.js',
 
 	theme: defaultTheme({
-		logo: 'https://vuejs.press/images/hero.png',
-
+		logo: 'https://raw.githubusercontent.com/udan-jayanith/GoHTML/refs/heads/main/assets/media/logo.jpg', //navigation bar ico
 		navbar: ['/', '/get-started'],
+		colorMode: 'light', // set default to light
+		colorModeSwitch: false, // hide the toggle
+		siteTitle: ""
 	}),
 
 	bundler: viteBundler(),

@@ -1,0 +1,45 @@
+:root {
+	--background-color: #fefefe;
+	--text-color: #040404ea;
+	--primary-color: #219ecf;
+}
+
+body {
+	background-color: var(--background-color) !important;
+}
+
+span,
+p {
+	color: var(--text-color) !important;
+}
+
+a {
+	color: var(--primary-color);
+}
+
+.vp-hero-action-button {
+	border: 2px solid var(--primary-color) !important;
+	color: var(--primary-color) !important;
+}
+
+.primary {
+	background-color: var(--primary-color) !important;
+	color: var(--background-color) !important;
+}
+
+.vp-sidebar-item.active:not(p.vp-sidebar-heading) {
+	border-inline-start-color: var(--primary-color) !important;
+	color: var(--primary-color) !important;
+}
+
+.vp-sidebar-item.auto-link:hover {
+  color: var(--primary-color) !important;
+}
+
+.vp-site-name{
+  display: none !important;
+} 
+
+#main-title{
+  color: var(--text-color) !important;
+}
