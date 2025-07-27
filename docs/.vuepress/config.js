@@ -10,11 +10,11 @@ export default defineUserConfig({
 	description: 'This is from config.js',
 
 	theme: defaultTheme({
-		logo: 'https://raw.githubusercontent.com/udan-jayanith/GoHTML/refs/heads/main/assets/media/logo.jpg', //navigation bar ico
+		logo: 'https://raw.githubusercontent.com/udan-jayanith/GoHTML-Documentation-Site/refs/heads/main/assets/media/logo-trimed.jpg', //navigation bar ico
 		navbar: ['/', '/get-started'],
 		colorMode: 'light', // set default to light
 		colorModeSwitch: false, // hide the toggle
-		siteTitle: ""
+		siteTitle: '',
 	}),
 
 	bundler: viteBundler(),

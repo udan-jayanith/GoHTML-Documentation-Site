@@ -7,6 +7,53 @@ This is a normal page, which contains VuePress basics.
 You can add markdown files in your vuepress directory, every markdown file will be converted to a page in your site.
 
 See [routing][] for more details.
+```js
+import { defaultTheme } from '@vuepress/theme-default'
+import { defineUserConfig } from 'vuepress'
+import { viteBundler } from '@vuepress/bundler-vite'
+
+
+export default defineUserConfig({
+	lang: 'en-US',
+
+	title: 'GoHTML',
+	description: 'This is from config.js',
+
+	theme: defaultTheme({
+		logo: 'https://raw.githubusercontent.com/udan-jayanith/GoHTML-Documentation-Site/refs/heads/main/assets/media/logo-trimed.jpg', //navigation bar ico
+		navbar: ['/', '/get-started'],
+		colorMode: 'light', // set default to light
+		colorModeSwitch: false, // hide the toggle
+		siteTitle: '',
+	}),
+
+	bundler: viteBundler(),
+})
+
+```
+```go
+package main
+import ("fmt")
+
+func main() {
+  fmt.Println("Hello World!")
+}
+```
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Heading</h1>
+
+<p>My first paragraph.</p>
+
+</body>
+</html>
+
+
+```
 
 ## Content
 
