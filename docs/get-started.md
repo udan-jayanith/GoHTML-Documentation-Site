@@ -20,7 +20,7 @@ export default defineUserConfig({
 	description: 'This is from config.js',
 
 	theme: defaultTheme({
-		logo: 'https://raw.githubusercontent.com/udan-jayanith/GoHTML-Documentation-Site/refs/heads/main/assets/media/logo-trimed.jpg', //navigation bar ico
+		logo: 'https://raw.githubusercontent.com/udan-jayanith/GoHTML/1bf9fa53f7c9943e636c13befb539e0f95b84d6a/assets/media/Favicon.svg', //navigation bar ico
 		navbar: ['/', '/get-started'],
 		colorMode: 'light', // set default to light
 		colorModeSwitch: false, // hide the toggle

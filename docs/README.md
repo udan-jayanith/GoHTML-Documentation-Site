@@ -1,7 +1,7 @@
 ---
 home: true
 title: Home
-heroImage: https://raw.githubusercontent.com/udan-jayanith/GoHTML-Documentation-Site/905e27fd0e310a58bb0d7bd1f837aa5f27571e0c/assets/media/Transparent%20Black%20version.svg
+heroImage: https://raw.githubusercontent.com/udan-jayanith/GoHTML/1bf9fa53f7c9943e636c13befb539e0f95b84d6a/assets/media/Black-text%20version.svg
 actions:
   - text: Get Started
     link: /get-started.html
